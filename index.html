@@ -4,85 +4,159 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aravind K | Senior Engineer – SCM</title>
+
   <style>
-    * { margin:0; padding:0; box-sizing:border-box; }
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
     body{
       font-family: Arial, Helvetica, sans-serif;
       background:#f4f6f9;
       color:#333;
-      line-height:1.6;
+      line-height:1.7;
     }
+
     .container{
       max-width:1000px;
       margin:30px auto;
       background:#fff;
-      border-radius:12px;
+      border-radius:14px;
       overflow:hidden;
-      box-shadow:0 6px 20px rgba(0,0,0,0.08);
+      box-shadow:0 8px 24px rgba(0,0,0,0.08);
     }
+
+    /* Header */
+
     header{
       background:#1f3c88;
       color:#fff;
       text-align:center;
-      padding:40px 20px;
+      padding:55px 20px;
     }
+
+    .banner{
+      display:inline-block;
+      background:#ffd54f;
+      color:#222;
+      padding:10px 18px;
+      border-radius:30px;
+      font-size:14px;
+      font-weight:bold;
+      margin-bottom:20px;
+    }
+
     header h1{
-      font-size:36px;
-      margin-bottom:8px;
+      font-size:46px;
+      margin-bottom:10px;
+      letter-spacing:1px;
     }
-    header p{
-      font-size:18px;
+
+    .role{
+      font-size:22px;
+      font-weight:600;
+      margin-bottom:14px;
       opacity:0.95;
     }
+
     .contact{
-      margin-top:15px;
-      font-size:14px;
+      font-size:15px;
+      line-height:1.9;
     }
+
+    .btn-group{
+      margin-top:24px;
+    }
+
+    .btn{
+      display:inline-block;
+      background:#fff;
+      color:#1f3c88;
+      padding:12px 24px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:bold;
+      transition:0.3s ease;
+      box-shadow:0 3px 10px rgba(0,0,0,0.18);
+    }
+
+    .btn:hover{
+      background:#e9efff;
+      transform:translateY(-2px);
+    }
+
+    /* Sections */
+
     section{
-      padding:25px 30px;
-      border-bottom:1px solid #e6e6e6;
+      padding:30px 34px;
+      border-bottom:1px solid #e8e8e8;
     }
-    section:last-child{ border-bottom:none; }
+
+    section:last-child{
+      border-bottom:none;
+    }
+
     h2{
       color:#1f3c88;
-      margin-bottom:15px;
-      font-size:24px;
+      margin-bottom:18px;
+      font-size:26px;
       border-left:5px solid #1f3c88;
-      padding-left:10px;
+      padding-left:12px;
     }
+
     .job{
-      margin-bottom:25px;
+      margin-bottom:28px;
     }
+
     .job h3{
       color:#222;
-      margin-bottom:5px;
+      margin-bottom:6px;
+      font-size:20px;
     }
+
     .job span{
       color:#666;
       font-size:14px;
+      display:block;
+      margin-bottom:8px;
     }
+
     ul{
       margin-top:10px;
-      padding-left:20px;
+      padding-left:22px;
     }
+
+    li{
+      margin-bottom:8px;
+    }
+
+    /* Skills */
+
     .skills{
       display:flex;
       flex-wrap:wrap;
-      gap:10px;
+      gap:12px;
     }
+
     .skill{
       background:#eef3ff;
       color:#1f3c88;
-      padding:8px 14px;
-      border-radius:20px;
+      padding:9px 15px;
+      border-radius:22px;
       font-size:14px;
       font-weight:600;
     }
+
+    /* Grid */
+
     .grid{
       display:grid;
       grid-template-columns:1fr 1fr;
-      gap:20px;
+      gap:26px;
     }
+
     footer{
       text-align:center;
       padding:20px;
@@ -90,23 +164,79 @@
       font-size:14px;
       color:#666;
     }
+
+    /* Mobile */
+
     @media(max-width:768px){
-      .grid{ grid-template-columns:1fr; }
-      header h1{ font-size:28px; }
-      section{ padding:20px; }
+
+      .container{
+        margin:12px;
+        border-radius:10px;
+      }
+
+      header{
+        padding:42px 18px;
+      }
+
+      header h1{
+        font-size:34px;
+      }
+
+      .role{
+        font-size:20px;
+      }
+
+      .contact{
+        font-size:14px;
+      }
+
+      .btn{
+        width:100%;
+        max-width:320px;
+      }
+
+      section{
+        padding:24px 18px;
+      }
+
+      h2{
+        font-size:22px;
+      }
+
+      .grid{
+        grid-template-columns:1fr;
+      }
     }
+
   </style>
 </head>
+
 <body>
 
 <div class="container">
 
   <header>
-    <h1>ARAVIND K</h1>
-    <p>Senior Engineer – SCM</p>
-    <div class="contact">
-      📍 Puducherry, India | 📞 +91 90438 61791 | ✉️ Aravind9871@gmail.com
+
+    <div class="banner">
+      🚀 Available for Procurement / SCM Opportunities
     </div>
+
+    <h1>ARAVIND K</h1>
+
+    <p class="role">Senior Engineer – SCM</p>
+
+    <div class="contact">
+      📍 Puducherry, India <br>
+      📞 +91 90438 61791 <br>
+      ✉️ Aravind9871@gmail.com
+    </div>
+
+    <div class="btn-group">
+      <a href="Aravind_SCM_Resume.pdf" download class="btn">
+        📄 Download Resume (PDF)
+      </a>
+    </div>
+
   </header>
 
   <section>
@@ -120,12 +250,14 @@
   </section>
 
   <section>
+
     <h2>Professional Experience</h2>
 
     <div class="job">
       <h3>EATON POWER QUALITY PVT. LTD.</h3>
       <span>Puducherry, India | Jul 2025 – Present</span>
       <p><strong>Procurement | Customer Support – Senior Engineer</strong></p>
+
       <ul>
         <li>Coordinate with supply chain, logistics, warehouse, and internal teams for order fulfillment and material availability.</li>
         <li>Support procurement-related follow-ups and delivery coordination with internal stakeholders.</li>
@@ -139,6 +271,7 @@
       <h3>EATON POWER QUALITY PVT. LTD.</h3>
       <span>Puducherry, India | Nov 2024 – May 2025</span>
       <p><strong>Procurement | Order Management – Associate Engineer</strong></p>
+
       <ul>
         <li>Tracked orders across the supply chain from procurement to final delivery.</li>
         <li>Coordinated with vendors, warehouse teams, and internal departments for timely dispatch and delivery.</li>
@@ -151,6 +284,7 @@
       <h3>DATAMATICS GLOBAL SERVICES LTD.</h3>
       <span>Puducherry, India | Nov 2016 – Aug 2024</span>
       <p><strong>Data Quality – Team Lead</strong></p>
+
       <ul>
         <li>Managed SAP MM material master data validation and compliance.</li>
         <li>Coordinated with stakeholders to resolve data discrepancies.</li>
@@ -163,6 +297,7 @@
 
   <section>
     <h2>Career Highlights</h2>
+
     <ul>
       <li>Nearly 10 years of industry experience.</li>
       <li>Strong hands-on exposure to SAP and ERP systems.</li>
@@ -173,10 +308,12 @@
   </section>
 
   <section>
+
     <div class="grid">
 
       <div>
         <h2>Technical Skills</h2>
+
         <div class="skills">
           <div class="skill">SAP MM</div>
           <div class="skill">SAP Office</div>
@@ -188,6 +325,7 @@
 
       <div>
         <h2>Key Skills</h2>
+
         <div class="skills">
           <div class="skill">Procurement Support</div>
           <div class="skill">Vendor Coordination</div>
@@ -203,10 +341,12 @@
   </section>
 
   <section>
+
     <div class="grid">
 
       <div>
         <h2>Education</h2>
+
         <p><strong>B.Tech – Information Technology</strong></p>
         <p>Christ Institute of Technology, Puducherry</p>
         <p>2012 – 2016 | CGPA: 7.45</p>
@@ -214,6 +354,7 @@
 
       <div>
         <h2>Languages</h2>
+
         <p>Tamil</p>
         <p>English</p>
       </div>
@@ -223,13 +364,18 @@
 
   <section>
     <h2>Declaration</h2>
+
     <p>
       I hereby declare that the above information is true and correct to the best of my knowledge and belief.
     </p>
+
     <br>
+
     <p><strong>Place:</strong> Puducherry</p>
     <p><strong>Date:</strong> ____________________</p>
+
     <br>
+
     <p><strong>ARAVIND K</strong></p>
   </section>
 
