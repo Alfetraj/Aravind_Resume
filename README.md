@@ -1,2 +1,1 @@
-# Scm-Engg
-aravind resume
+Here is a modern single-file HTML resume website based on your uploaded resume. Save it as index.html and open it in any browser. It will look like a professional portfolio/resume webpage for Aravind K – Senior Engineer SCM.
